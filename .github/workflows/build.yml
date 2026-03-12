@@ -35,8 +35,7 @@ jobs:
        
 
           # Sigmastar [I6E]
-          - ssc30kd_lite
-          - ssc30kq_lite
+
           - ssc338q_lite
 
           # Hisilicon [HI3516CV300]
