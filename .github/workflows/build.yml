@@ -19,30 +19,42 @@ jobs:
       fail-fast: false
       matrix:
         platform:
+          # Sigmastar [I6]
+          - ssc325_lite
+          - ssc325de_lite
 
-   
+          # Sigmastar [I6B]
+          - ssc333_lite
+          - ssc335_lite
+          - ssc335de_lite
+          - ssc337_lite
+          - ssc337de_lite
 
           # Sigmastar [I6C]
-
           - ssc378de_lite
- 
+       
 
-   
+          # Sigmastar [I6E]
+          - ssc30kd_lite
+          - ssc30kq_lite
+          - ssc338q_lite
 
-      
-      
+          # Hisilicon [HI3516CV300]
+          - hi3516cv300_lite
+
+          # Goke [GK7205V200]
+          - gk7202v300_lite
+          - gk7205v200_lite
+          - gk7205v210_lite
+          - gk7205v300_lite
+          - gk7605v100_lite
 
 
+          # Ultimate
+          - ssc338q_ultimate
 
-
-
-
-
-
-
-
-
-  
+          - gk7205v200_ultimate
+          - gk7205v300_ultimate
 
     steps:
       - name: Checkout source
